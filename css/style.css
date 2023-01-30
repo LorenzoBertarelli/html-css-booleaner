@@ -1,5 +1,31 @@
 *{
-    padding: 0;
+    /* padding: 0; */
     margin: 0;
     box-sizing: border-box;
+}
+
+/* HEADER */
+header{
+    background-color: rgb(107, 160, 240);
+}
+
+.logo{
+    
+}
+
+.header-sfondo-titolo{
+    background-image:;
+}
+
+/* MAIN */
+.sfumatura-testo{
+    -webkit-text-fill-color:rgba(0, 0, 0, 0.562)
+}
+
+.colore-sottotitolo{
+    color: blue
+}
+
+.grandezza-data{
+    font-size: 12px;
 }
