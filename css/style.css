@@ -1,8 +1,8 @@
-*{
-    /* padding: 0; */
+/* *{
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
+} */
 
 /* HEADER */
 header{
@@ -10,7 +10,7 @@ header{
 }
 
 .logo{
-    
+
 }
 
 .header-sfondo-titolo{
@@ -28,4 +28,17 @@ header{
 
 .grandezza-data{
     font-size: 12px;
+}
+
+.tabella-titolo{
+    background-color: blue;
+    color: white;
+}
+
+.tabella-corpo{
+    background-color: aquamarine;
+}
+
+.evidenziatore-testo{
+    color: yellow;
 }
