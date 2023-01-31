@@ -6,28 +6,47 @@
 
 /* HEADER */
 header{
+    background-image: url(../img/pattern.png);
     background-color: rgb(107, 160, 240);
+    background-size: auto
+    
+    
 }
 
 .logo{
-
+    width: 50%;
+    height: 10%;
 }
 
 .header-sfondo-titolo{
-    background-image:;
+}
+
+.descrizione-foto{
+    font-size: 12px;
 }
 
 /* MAIN */
+.immagini-tom{
+    
+}
 .sfumatura-testo{
-    -webkit-text-fill-color:rgba(0, 0, 0, 0.562)
+    color: rgba(0, 0, 0, 0.527);
 }
 
 .colore-sottotitolo{
-    color: blue
+    color: blue;
 }
 
 .grandezza-data{
     font-size: 12px;
+}
+
+.lista{
+    margin-left: -21px;
+}
+
+.tabella{
+    margin: 0px;
 }
 
 .tabella-titolo{
@@ -37,8 +56,32 @@ header{
 
 .tabella-corpo{
     background-color: aquamarine;
+    border: 0;
 }
 
 .evidenziatore-testo{
-    color: yellow;
+    background-color: yellow
 }
+
+.consigliati{
+    width: 1500px;
+}
+
+.consigliati-box{
+    background-image: url(../img/monitor.jpg);
+    background-image: url(../img/graph.jpg);
+    padding-top: 100%;
+    background-repeat: no-repeat;
+    height: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+/* .consigliati-box{
+    background-image: url(../img/graph.jpg);
+    padding-top: 100%;
+    background-repeat: no-repeat;
+    height: 0;
+    overflow: hidden;
+    position: relative; */
+/* } */
