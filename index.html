@@ -10,12 +10,11 @@
 
 <body>
     <!-- HEADER -->
-    <header>
+    <header class="header">
 
-        <img class="logo" src="img/logo.svg" alt="">
+        <img id="logo" src="img/logo.svg" alt="">
         <!-- <img class="header-sfondo-titolo" src="img/pattern.png" alt=""> -->
         
-
     </header>
     <!-- END HEADER -->
 
@@ -23,13 +22,13 @@
     <main>
 
         <!-- TITOLO e IMMAGINI -->
-        <section>
+        <section class="container">
 
            <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
 
            <p class="sfumatura-testo">Scritto da <span class="colore-sottotitolo"> The Booleaners </span> <br> <span class="grandezza-data">il 10/10/2020</span></p>
 
-           <div class="immagini-tom">
+           <div>
                <img src="img/tim-1.jpg" alt="">
                <img src="img/tim-2.jpg" alt="">
            </div>
@@ -39,7 +38,7 @@
         </section>
 
         <!-- TESTO E LISTA -->
-        <section>
+        <section class="container">
 
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
                 Perferendis ab sint dolorum! <span class="evidenziatore-testo"> Nulla debitis qui minima! </span>
@@ -55,7 +54,7 @@
         </section>
 
         <!-- TABELLA E TESTO -->
-        <section>
+        <section class="container">
 
             <table class="tabella">
                 <thead>
@@ -86,7 +85,7 @@
 
             </table>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quas omnis corporis enim, <span class="evidenziatore-testo"> asperiores eligendi minima inventore </span> distinctio velit facere soluta ducimus in voluptas accusantium culpa dolorem autem tempore aperiam?</p>
+            <p class="testo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quas omnis corporis enim, <span class="evidenziatore-testo"> asperiores eligendi minima inventore </span> distinctio velit facere soluta ducimus in voluptas accusantium culpa dolorem autem tempore aperiam?</p>
 
         </section>
     </main>
@@ -94,22 +93,16 @@
 
     <!-- FOOTER -->
     <footer>
-        <h4 class="sfumatura-testo">Potrebbero interessarti</h4>
+        <div class="container">
+            <h3 class="footer-title">Potrebbero interessarti</h3>
+            <div class="article-item" id="monitor">
+                <a href="">Lorem ipsum</a>
+            </div>
 
-        <div class="consigliati"> 
-            <div class="consigliati-box"> 
-              <div class="inner-text"> 
-                <h1>Lorem ipsum dolor</h1> 
-              </div> 
-            </div> 
-          </div> 
-
-        <!-- <div class="consigliati">
-            <p>Lorem ipsum dolor</p>
+            <div class="article-item" id="graph">
+                <a href="">Lorem ipsum</a>
+            </div>
         </div>
-        <div class="consigliato">
-            <p>Lorem ipsum dolor</p>
-        </div> -->
     </footer>
     <!-- END FOOTER -->
 
